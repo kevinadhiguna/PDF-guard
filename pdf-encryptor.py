@@ -13,7 +13,12 @@ passw = input('Enter your password: ')
 pdfWriter.encrypt(passw)
 print('Password was set successfully !')
 
+setNewName = input('What will you name your encrypted pdf? (without ".pdf") : ')
+newPdfName = str(setNewName) + '.pdf'
+
 # Create a new encrypted PDF
-with open("encrypted.pdf", 'wb') as f:
+with open(newPdfName, 'wb') as f:
     pdfWriter.write(f)
     f.close()
+
+print('Excellent! You have secured your PDF file!')
