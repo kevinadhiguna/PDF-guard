@@ -6,3 +6,5 @@ PDF-guard is a python app that helps you to secure a PDF file by encrypting it w
 2) Open terminal / Comman Prompt, then type `python pdf-encryptor.py`.
 3) Enter your password and new encrypted PDF filename.
 4) Check folder and get your encrypted PDF!
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/PDF-guard)](https://github.com/kevinadhiguna)
